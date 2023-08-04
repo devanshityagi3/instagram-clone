@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+.notfound h2{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1000%;
+  text-align: center;
+  position: relative;
+  margin-top: -1%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.notfound img{
+  width: 50%;
+  margin-left: 20%;
+  position: absolute;
+  margin-top: -10%;
+  height: 100%;
+}
+
+.insta {
+  text-decoration: none;
+  color: black;
+}
+
+.insta-icon {
+  font-size: 500%;
+  margin-top: 20%;
 }

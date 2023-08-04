@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.instagram{
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+    margin: 1%;
+    position: relative;
+}
+
+.instagram:hover{
+    cursor: pointer;
+}
+
+.instagram Link {
+    text-decoration: none;
+}
+
+/* .left-nav{
+    
+    
+} */
+
+.left-nav-buttons{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 19%;
+    font-size: 130%;
+    position: relative;
+}
+
+.left-nav-buttons:hover{
+    background-color: rgb(171, 176, 176);
+    border-radius: 7%;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.search-bar {
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.search-bar input {
+    border: none;
+    display: flex;
+}
+
+.search-bar.open .icon {
+    font-size: 36px;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.close-icon {
+    font-size: 24px;
+    color: rgb(18, 17, 17);
+}

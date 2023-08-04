@@ -1,0 +1,10 @@
+
+.home{
+    display: flex;
+}
+
+
+.sidebar{
+    position: absolute;
+    margin-top: 5%;
+}

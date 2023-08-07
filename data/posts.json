@@ -1,0 +1,15 @@
+{
+  "posts": [
+
+  { "imageUrl": "/images/posts/post1.png", 
+    "username": "user1",
+    "caption": "Post 1 caption",
+    "post_id": 1
+  },
+  { "imageUrl": "/images/posts/post2.png",
+    "username": "user2",
+    "caption": "Post 2 caption",
+    "post_id": 2
+  }
+]
+}

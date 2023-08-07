@@ -3,6 +3,7 @@ import "../css/sidebar.css";
 import { FiCompass, FiHome, FiSearch} from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 // import { Link } from "react-router-dom";
+import More from "./More";
 
 const Sidebar = () => {
 
@@ -10,9 +11,7 @@ const Sidebar = () => {
 
     return (
       <div className="left-nav">
-        <div className="instagram">
-            Instagram
-        </div>
+        <div className="instagram">Instagram</div>
         <button className="left-nav-buttons">
           <FiHome className="icon" />
           {isSearchOpen ? null : "Home"}
@@ -26,7 +25,6 @@ const Sidebar = () => {
         </button>
         {isSearchOpen && (
           <div className="search-bar">
-            <div className="slider"></div>
             <input type="text" placeholder="Search" />
             <button
               className="close-button"
@@ -40,6 +38,7 @@ const Sidebar = () => {
           <FiCompass className="icon" />
           {isSearchOpen ? null : "Explore"}
         </button>
+        <More/>
       </div>
     );
 }

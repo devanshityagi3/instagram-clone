@@ -2,12 +2,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import NotFound from "./Components/NotFound";
 import Home from "./Components/Home";
-import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+     
       <Router>
         <div className="content">
           <Routes>

@@ -1,8 +1,9 @@
 import PostItem from "./PostItem";
+import "../css/story-and-post-section.css";
+import "../css/home.css";
 import useFetch from "./useFetch"; // Import the custom hook
 
 const PostsSection = () => {
-    console.log("after post");
   const {
     data: posts,
     isPending,
@@ -15,23 +16,22 @@ const PostsSection = () => {
 
   return (
     <div className="posts-section">
-      {isPending ? (
-        <div>Loading...</div>
-      ) : (
-        (posts?.length) ? (
-        posts.map((post) => (
-          <PostItem
-            key={post.post_id}
-            imageUrl={post.imageUrl}
-            username={post.username}
-            caption={post.caption}
-          />
-        ))
+      <div className="flex justify-between items-center w-full py-4">
+        {isPending ? (
+          <div>Loading...</div>
+        ) : posts?.length ? (
+          posts.map((post) => (
+            <PostItem
+              key={post.post_id}
+              imageUrl={post.imageUrl}
+              username={post.username}
+              caption={post.caption}
+            />
+          ))
         ) : (
           <div>No Posts found</div>
-        )
-      )}
-
+        )}
+      </div>
     </div>
   );
 };

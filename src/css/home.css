@@ -1,11 +1,20 @@
 
-.home{
-    position: relative;
-    
+.home {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.story-section,
+.posts-section, .users {
+    flex: 1;
+    /* Distributes remaining space equally between sections */
 }
 
 .stories-and-posts{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
+    margin-left: 5%;
+}
+
+.users{
+    margin-left: 29%;
 }

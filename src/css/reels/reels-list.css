@@ -1,0 +1,21 @@
+/* ReelsList.css */
+.reels-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.reel-item {
+    flex: 0 0 auto;
+    width: 280px;
+    /* Adjust as needed */
+    height: 300px;
+    /* Adjust as needed */
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}

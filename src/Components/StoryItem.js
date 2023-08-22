@@ -1,4 +1,4 @@
-import "../css/storysection.css";
+import "../css/story-and-post-section.css";
 
 const StoryItem = ({ imageUrl, username }) => {
   return (

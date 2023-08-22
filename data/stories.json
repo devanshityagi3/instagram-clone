@@ -1,12 +1,45 @@
 {
     "stories":[
-        { "imageUrl": "/images/user1.png",
-          "username": "user1",
+        { "imageUrl": "/images/Luke Dunphy.jpg",
+          "username": "Luke Dunphy",
           "story_id": 1
         },
-        { "imageUrl": "/images/user2.png",
-          "username": "user2",
+        { "imageUrl": "/images/Katy perry.jpg",
+          "username": "Katy perry",
           "story_id": 2
+        },
+        { "imageUrl": "/images/Shawn Mendes.jpg",
+          "username": "Shawn Mendes",
+          "story_id": 3
+        },
+        { "imageUrl": "/images/Claire Dunphy.png",
+          "username": "Claire Dunphy",
+          "story_id": 4
+        },
+        { "imageUrl": "/images/Camila Cabello.jpg",
+          "username": "Camila Cabello",
+          "story_id": 5
+        },
+        { "imageUrl": "/images/Cristiano Ronaldo.jpg",
+          "username": "Cristiano Ronaldo",
+          "story_id": 6
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 7
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 8
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 9
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 10
         }
+
     ]
 }

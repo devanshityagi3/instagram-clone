@@ -1,0 +1,58 @@
+/* CSS for UsersSection */
+.users-section {
+    width: 30%;
+    padding: 10px;
+}
+
+.user-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.user-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.user-item button {
+    background-color: #0095f6;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    height: 12%;
+}
+
+.user-item button:hover {
+    background-color: #d7dfe4;
+    color: black;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile button{
+    background-color: #0095f6;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: 2% 5%;
+}
+
+.username {
+    font-weight: bold;
+}

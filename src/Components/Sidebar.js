@@ -3,7 +3,10 @@ import "../css/sidebar.css";
 import { FiCompass, FiHome, FiSearch} from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 // import { Link } from "react-router-dom";
+// import Reels from "./Reels";
 import More from "./More";
+import { Link } from "react-router-dom";
+import { PiVideoFill } from "react-icons/pi";
 
 const Sidebar = () => {
 
@@ -38,6 +41,10 @@ const Sidebar = () => {
           <FiCompass className="icon" />
           {isSearchOpen ? null : "Explore"}
         </button>
+        <Link to="/Reels" className="left-nav-buttons">
+          <PiVideoFill className="reels-icon" />
+          Reels
+        </Link>
         <More/>
       </div>
     );

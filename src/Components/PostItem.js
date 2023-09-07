@@ -34,7 +34,7 @@ const PostItem = ({ imageUrl, username, caption }) => {
   return (
     <div className="post-item">
       <div className="user-info">
-        <img src={`/images/users/${username}.png`} alt={username} />
+        <img src={`/images/users/${username}.jpg`} alt={username} />
         <span>{username}</span>
       </div>
       <img src={imageUrl} alt={username} />

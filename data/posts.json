@@ -1,28 +1,45 @@
 {
-  "reels": [
-    {
-      "id": 1,
-      "user": {
-        "username": "user1",
-        "profileImage": "/images/user1-profile.jpg"
-      },
-      "videoUrl": "/videos/reel1.mp4",
-      "caption": "Amazing sunset view 🌅",
-      "likes": 128,
-      "comments": 23,
-      "shares": 10
-    },
-    {
-      "id": 2,
-      "user": {
-        "username": "user2",
-        "profileImage": "/images/user2-profile.jpg"
-      },
-      "videoUrl": "/videos/reel2.mp4",
-      "caption": "Exploring the great outdoors 🏞️",
-      "likes": 240,
-      "comments": 45,
-      "shares": 15
-    }
-  ]
+    "posts":[
+        { "imageUrl": "/images/Luke Dunphy.jpg",
+          "username": "Luke Dunphy",
+          "story_id": 1
+        },
+        { "imageUrl": "/images/Katy perry.jpg",
+          "username": "Katy perry",
+          "story_id": 2
+        },
+        { "imageUrl": "/images/Shawn Mendes.jpg",
+          "username": "Shawn Mendes",
+          "story_id": 3
+        },
+        { "imageUrl": "/images/Claire Dunphy.png",
+          "username": "Claire Dunphy",
+          "story_id": 4
+        },
+        { "imageUrl": "/images/Camila Cabello.jpg",
+          "username": "Camila Cabello",
+          "story_id": 5
+        },
+        { "imageUrl": "/images/Cristiano Ronaldo.jpg",
+          "username": "Cristiano Ronaldo",
+          "story_id": 6
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 7
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 8
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 9
+        },
+        { "imageUrl": "/images/Alia Bhatt.jpg",
+          "username": "Alia Bhatt",
+          "story_id": 10
+        }
+
+    ]
 }

@@ -4,7 +4,7 @@
       "id": 1,
       "user": {
         "username": "user1",
-        "profileImage": "/images/user1-profile.jpg"
+        "profileImage": "/images/posts/reel1.webp"
       },
       "videoUrl": "/videos/reel1.mp4",
       "caption": "Amazing sunset view 🌅",
@@ -16,7 +16,7 @@
       "id": 2,
       "user": {
         "username": "user2",
-        "profileImage": "/images/user2-profile.jpg"
+        "profileImage": "/images/posts/reel1.webp"
       },
       "videoUrl": "/videos/reel2.mp4",
       "caption": "Exploring the great outdoors 🏞️",
